@@ -11,6 +11,7 @@ public class Hashing_1 {
         //Hash Array
         int[] hash = new int[13];
         for(int i=0 ; i< arr.length;i++){
+            // Pre Storing
             hash[arr[i]] += 1 ;
         }
 
@@ -19,6 +20,7 @@ public class Hashing_1 {
 
         while(q>0){
             int num = sc.nextInt();
+            // Fetching
             System.out.println(hash[num]);
             q--;
         }
